@@ -1,6 +1,7 @@
 function l() {
-  href="javascript:!function(){alert('eeeee\ne\neeeee\ne\neeeee');}()"
-}
-function ll() {
-  href="javascript:document.body.contenteditable=true; void=0;"
+  var x = document.getElementByID("1");
+  if (x.style.display === "none") {
+  var x = document.getElementById("2");
+  if (x.style.display === "none") {
+    x.style.display = "block";
 }
